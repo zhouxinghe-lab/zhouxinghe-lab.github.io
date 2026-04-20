@@ -1,6 +1,6 @@
 baseURL = "https://zhouxinghe-lab.github.io/"
 languageCode = "zh-cn"
-title = "鍛ㄦ槦娌崇殑鏁板瓧鑺卞洯"
+title = "周星河的数字花园"
 theme = "PaperMod"
 
 [params]
@@ -10,8 +10,6 @@ theme = "PaperMod"
     displayFullContent = false
     math = true
 
-    # 棣栭〉淇℃伅閰嶇疆
-    [params.homeInfoParams]
-        Title = "馃憢 娆㈣繋鏉ュ埌鍛ㄦ槦he鐨勬暟瀛楄姳鍥?
-        Content = "杩欓噷璁板綍鐫€鍏充簬鍖诲 AI銆佸ぇ鏁版嵁鎶€鏈互鍙婁釜浜烘垚闀跨殑鎬濊€冧笌娌夋穩銆? 
-
+[params.homeInfoParams]
+    Title = "👋 欢迎来到周星河的数字花园"
+    Content = "这里记录着关于医学 AI、大数据技术以及个人成长的思考与沉淀。"
