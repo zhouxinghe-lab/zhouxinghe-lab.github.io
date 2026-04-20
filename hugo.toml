@@ -1,15 +1,65 @@
-baseURL = "https://zhouxinghe-lab.github.io/"
-languageCode = "zh-cn"
-title = "周星河的数字花园"
-theme = "PaperMod"
+baseURL = 'https://zhouxinghe-lab.github.io/'
+languageCode = 'zh-cn'
+title = "🦁 深度学习研究狮"
+theme = 'PaperMod'
 
 [params]
-    defaultTheme = "auto"
-    showReadingTime = true
-    showShareButtons = true
-    displayFullContent = false
-    math = true
+    env = 'production'
+    description = '记录医学 AI、大数据技术以及个人成长的思考与沉淀'
 
-[params.homeInfoParams]
-    Title = "👋 欢迎来到周星河的数字花园"
-    Content = "这里记录着关于医学 AI、大数据技术以及个人成长的思考与沉淀。"
+    # --- 首页名片装修 (TOML 语法) ---
+    [params.profileMode]
+        enabled = true
+        title = "🦁 深度学习研究狮"
+        subtitle = """
+吼！欢迎来到这只研究狮的实验地洞。
+
+**目前的狩猎范围：** 医学 AI · 信号处理 (CTG) · 神经网络架构。\n
+**花园守则：** 拒绝死记硬背，只留思考痕迹。不求完美交付，只求每日生长。
+"""
+        imageUrl = 'images/avatar.jpg'
+        imageWidth = 150
+        imageHeight = 150
+
+        [[params.profileMode.buttons]]
+                name = "🐾 踩过的脚印"
+                url = "posts"
+
+        [[params.profileMode.buttons]]
+            name = "🗺️ 知识地图"
+            url = "research"
+
+        [[params.profileMode.buttons]]
+            name = "🔍 灵感搜索"
+            url = "search"
+
+    # --- 社交图标 ---
+    [[params.socialIcons]]
+        name = 'github'
+        url = 'https://github.com/zhouxinghe-lab'
+
+    [[params.socialIcons]]
+        name = 'email'
+        url = 'mailto:brockhh@163.com'
+
+# --- 顶栏菜单 ---
+[[menu.main]]
+    identifier = "research"
+    name = "🔭 研究"
+    url = "/research/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "tech"
+    name = "🛠️ 技术"
+    url = "/tech/"
+    weight = 20
+
+[[menu.main]]
+    identifier = "papers"
+    name = "📚 文献"
+    url = "/papers/"
+    weight = 30
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"] # 关键：必须加上 JSON，搜索才能工作
