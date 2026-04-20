@@ -1,0 +1,11 @@
+baseURL = "https://zhouxinghe.github.io/"
+languageCode = "zh-cn"
+title = "周星河的数字花园"
+theme = "PaperMod"
+
+[params]
+    defaultTheme = "auto"
+    showReadingTime = true
+    showShareButtons = true
+    displayFullContent = false
+    math = true
