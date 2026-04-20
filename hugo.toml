@@ -1,6 +1,6 @@
 baseURL = "https://zhouxinghe-lab.github.io/"
 languageCode = "zh-cn"
-title = "鍛ㄦ槦娌崇殑鏁板瓧鑺卞洯"
+title = "周星河的数字花园"
 theme = "PaperMod"
 
 [params]
@@ -9,4 +9,3 @@ theme = "PaperMod"
     showShareButtons = true
     displayFullContent = false
     math = true
-
