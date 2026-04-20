@@ -9,3 +9,8 @@ theme = "PaperMod"
     showShareButtons = true
     displayFullContent = false
     math = true
+
+    # 首页信息配置
+    [params.homeInfoParams]
+        Title = "👋 欢迎来到周星he的数字花园"
+        Content = "这里记录着关于医学 AI、大数据技术以及个人成长的思考与沉淀。" 
